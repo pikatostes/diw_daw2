@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Estilos para el cuerpo del documento */
+body {
+     font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+     background-color: #001f3f;
+     /* Azul oscuro */
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+}
+
+/* Estilos para el ícono de hamburguesa en la barra de navegación */
+.navbar-light .navbar-toggler-icon {
+     background-color: #fff;
+     /* Color del ícono de hamburguesa */
+}
+
+/* Estilos para el botón de hamburguesa en la barra de navegación */
+.navbar-light .navbar-toggler {
+     border-color: #fff;
+     /* Color del borde del botón de hamburguesa */
+}
+
+/* Estilos para la sección Hero y "Sobre Mí" */
+.hero-section {
+     background-color: #f8f9fa;
+     /* Color de fondo para la sección Hero */
+     padding: 100px 0;
+}
+
+/* Estilos para las tarjetas de la sección de Experiencia */
+.card {
+     background-color: #fff;
+     /* Color de fondo de las tarjetas */
+     border: 1px solid #ddd;
+     /* Borde de las tarjetas */
+     border-radius: 10px;
+     /* Bordes redondeados */
+     margin-bottom: 20px;
+     /* Margen inferior entre tarjetas */
+}
+
+/* Estilos para los botones dentro de las tarjetas */
+.card .btn {
+     margin-top: 10px;
+     /* Margen superior para separar los botones */
+}
+
+/* Estilos para la sección de Proyectos */
+.projects-section {
+     padding: 50px 0;
+}
+
+/* Estilos para las tarjetas de la sección de Proyectos */
+.projects-section .card {
+     border-radius: 10px;
+     overflow: hidden;
+}
+
+/* Estilos para los enlaces de la sección de Artículos */
+#articles a {
+     color: #001f3f;
+     /* Color de enlaces */
+}
+
+/* Estilos para la sección de Testimonios */
+#testimonials {
+     background-color: #f8f9fa;
+     /* Color de fondo para la sección de Testimonios */
+     padding: 50px 0;
+}
+
+/* Estilos para el carrusel de la sección de Testimonios */
+#testimonials .carousel-item p {
+     font-size: 18px;
+     /* Tamaño de fuente para los testimonios */
+}
+
+/* Estilos para la sección de Contacto */
+#contact {
+     padding: 50px 0;
+}
+
+/* Estilos para los íconos de redes sociales en la sección de Contacto */
+#contact i {
+     color: #001f3f;
+     /* Color de los íconos de redes sociales */
+}
